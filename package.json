@@ -1,0 +1,25 @@
+{
+  "name": "weatherts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "http-server -p 4040"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHALFY007/weatherTS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHALFY007/weatherTS/issues"
+  },
+  "homepage": "https://github.com/SHALFY007/weatherTS#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "typescript": "^4.9.4"
+  }
+}
