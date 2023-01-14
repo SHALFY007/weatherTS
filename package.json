@@ -20,6 +20,8 @@
   "homepage": "https://github.com/SHALFY007/weatherTS#readme",
   "dependencies": {
     "bootstrap": "^5.3.0-alpha1",
+    "http-server": "^14.1.1",
+    "nodemon": "^2.0.20",
     "typescript": "^4.9.4"
   }
 }
