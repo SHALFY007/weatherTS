@@ -1,6 +1,6 @@
 const cities = ['Moscow', 'Volgograd', 'Berlin']
 
-export function findCity(title, el:Element) {
+export function findCity(title:HTMLInputElement, el:Element) {
     for (let city of cities) {
         if (city.startsWith(title.value) && title.value != '') {
             el.innerHTML = city
@@ -11,6 +11,6 @@ export function findCity(title, el:Element) {
     }
 }
 
-export function addCity(input, tips) {
+export function addCity(input:HTMLInputElement, tips:Element) {
     input.value = tips.innerHTML
 }

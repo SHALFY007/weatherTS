@@ -32,3 +32,9 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+.card {
+    margin-top: 15px !important;
+}
+.card-img-top {
+    max-width: 64px !important;
+}
